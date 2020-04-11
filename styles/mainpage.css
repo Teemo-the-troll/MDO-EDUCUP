@@ -1,0 +1,149 @@
+body, html {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    min-width:80%;
+    width: auto !important;
+    width:800px;
+
+}
+#titleCsgo {
+    position: absolute;
+    text-align: center;
+
+    width: 300px;
+    height: 160px;
+    top: 37%;
+    left: 25%;
+    color: white;
+    font-family: "Candara Light";
+
+
+    border-bottom: 2px solid white;
+
+}
+
+#logo {
+position: absolute;
+top: -10%;
+    left: 1.5%;
+}
+
+#titleLol {
+    border-bottom: 2px solid white;
+    position: absolute;
+    text-align: center;
+
+    width: 300px;
+    height: 160px;
+    top: 37%;
+    left: 39%;
+    color: white;
+    font-family: "Candara Light";
+
+}
+
+#general {
+    position: absolute;
+    left: 37%;
+    top: 22.6%;
+    background-color: rgba(134,134,134,0.26);
+    font-family: Candara;
+    color: white;
+
+}
+
+#general > p {
+
+    text-align: justify;
+    position: relative;
+    top: -14px;
+    padding: 102px;
+    padding-top: 110px;
+    border: 1px solid white;
+}
+#container {
+    min-width:800px;
+    width: auto !important;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: left;
+
+}
+
+#lol2 {
+     position: relative;
+     width: 100%;
+     height: 100%;
+    transition-property: background-color, opacity;
+    transition-duration: 1s;
+    background-color: rgba(0,0,0,0.62);
+
+ }
+
+#csgo2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.62);
+    transition-duration: 1s;
+    background-color: rgba(0,0,0,0.62);
+
+
+}
+
+
+#lol2:hover {
+    transition-property: background-color, opacity;
+    transition-duration: 1s;
+
+    background-color: rgba(55,55,55,0.6);
+    opacity: 80%;
+}
+
+#csgo2:hover {
+    transition-property: background-color, opacity;
+    transition-duration: 1s;
+    background-color: rgba(55,55,55,0.6);
+    opacity: 80%;
+}
+
+
+.layer {
+    background-color: rgba(0,0,0,0.52);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#general {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+
+}
+
+#lol:hover {
+    background-size: revert;
+}
+
+#lol {
+    background-image: url("../images/educup.png");
+    width: 50%;
+    background-size: cover;
+}
+
+#csgo {
+    background-image: url("../images/educupcsgo.png");
+    width: 50%;
+    background-size: cover;
+}
+
+
